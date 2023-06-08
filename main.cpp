@@ -5,6 +5,7 @@ using namespace std;
 // Функция для создания игрового поля заданного размера
 char** createBoard(int rows, int cols)
 {
+
   // Создаем двумерный динамический массив размера rows x cols
   char** board = new char*[rows];
   for (int i = 0; i < rows; ++i) {
